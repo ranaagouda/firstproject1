@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MY PAGE</title>
+        <style>
+            .blue{
+                color : blue;
+            }
+            .red{
+                color: red;
+            }
+            table, th, td{
+                border: 1px solid blueviolet;
+                border-collapse: collapse;
+                padding: 5px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <colgroup>
+            <col span="1" style="background-color: red;">
+            </colgroup>
+            <tr>
+                <th>Name</th>
+                <th>ch 1</th>
+                <th>ch 2</th>
+                <th>ch 3</th>
+            </tr>
+            <tr>
+                <td>rana</td>
+                <td>x</td>
+                <td></td>
+                <td>x</td>
+            </tr>
+            <tr>
+                <td>rody</td>
+                <td></td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+            <tr>
+                <td>reto</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+
+        </table>
+        <div>
+            <a href="#bottom"> go to bottom</a>
+        </div>
+        <h1 id="myID" style="color:green">hrtedf<br>cvbji</h1>
+        <h2>poiuyhg</h2>
+        <h4 title="myTitle">oijhnm,lp</h4>
+        <h6>poiuygbn <a href="http://www.google.com" target="_blank"> google</a> </h6>
+        <hr>
+        <ol type="a" start="15">
+            <li>one</li>
+            <li>two</li>
+            <li>new list
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                </ol>
+            </li>
+        </ol>
+        <ul style="list-style-type:lower-roman">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <dl>
+            <dt>main 1</dt>
+            <dd>one</dd>
+            <dd>two</dd>
+            <dt>main 2</dt>
+            <dd>one</dd>
+            <dd>two</dd>
+        </dl>
+        <hr>
+        <div>
+            <p class="blue">sdfghjkl;/.,mnbvcxdrtyuiop[';l,mnb</p>
+            <p class="red">poiujhgvbnm,kp';/.,<span> iuytrewsdxcvbhjk </span>mnbvcxzsghj</p>
+            <p>send email <a href="mailto:ranangouda01@gmail.com">ranangouda01@gmail.com</a></p>
+        </div>
+        <div id="bottom">
+            oiuytrewqasdcvbnm,liuytr <a href="#myID"> go to top element with id myID</a>
+        </div>
+        <hr>
+        <div>
+            <img width="530" src="anchor.webp" alt="anchor image">
+        </div>
+        <!-- comment   -->
+    </body>
+
+</html>
